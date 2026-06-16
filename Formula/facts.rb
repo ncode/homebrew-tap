@@ -16,6 +16,6 @@ class Facts < Formula
 
   test do
     assert_equal "v#{version}", shell_output("#{bin}/facts --version").chomp
-    assert_match "facterversion", shell_output("#{bin}/facts facterversion")
+    assert_match "facterversion", shell_output("#{bin}/facts --json facterversion")
   end
 end
