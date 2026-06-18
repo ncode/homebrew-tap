@@ -1,8 +1,8 @@
 class Facts < Formula
   desc "Discover and report facts about the current system"
   homepage "https://github.com/ncode/facts"
-  url "https://github.com/ncode/facts/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "51edd82a166ef5a19a8e0f882949e02845959e47a10332b2767687f019070278"
+  url "https://github.com/ncode/facts/archive/refs/tags/v0.0.3.tar.gz"
+  sha256 "124cac9c43ce5210c57650db4565ba73b64b151a66b39923a71c617024b69e79"
   license "Apache-2.0"
 
   depends_on "go" => :build
